@@ -1,10 +1,14 @@
-from src.sum_consecutive_duplicates import sum_consecutive_duplicates, reduce_consecutives
+from src.sum_consecutive_duplicates import (
+    sum_consecutive_duplicates,
+    reduce_consecutives,
+)
+
 
 class TestSumConsecutiveDuplicates:
-    def test_returns_empty_list_when_given_empty_list(self):
+    def test_default_behaviour_returns_empty_list_when_given_empty_list(self):
         assert sum_consecutive_duplicates([]) == []
 
-    def test_returns_given_list_if_there_are_no_duplicates(self):
+    def test_default_behaviour_returns_given_list_if_there_are_no_duplicates(self):
         assert sum_consecutive_duplicates([1, 2, 3]) == [1, 2, 3]
 
     def test_handles_one_set_of_consecutive_duplicates(self):
