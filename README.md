@@ -1,3 +1,5 @@
-# DE Back End Katas
+# Data Engineering Bootcamp - Katas
 
-Instructions for this repo can be found at: https://l2c.northcoders.com/courses/de2-backend/be-katas
+## Overview
+
+This repository contains katas completed as part of my Data Engineering Bootcamp. 
